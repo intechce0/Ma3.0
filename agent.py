@@ -20,10 +20,7 @@ class Assistant(Agent):
             temperature=0.8,
         ),
             tools=[
-                get_weather,
-                search_web,
-                send_email
-            ],
+                get_weather,search_web,  send_email],
 
         )
         
